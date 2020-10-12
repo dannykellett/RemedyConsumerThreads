@@ -7,6 +7,7 @@ It's important to understand the following:
 - The consumer threads do not wait for each other to complete. Which is fine if your consumer threads do all the necessary work. But the code needs to do something else once the consumer threads are complete, then this is not the best method (I may do another example with [Executors](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executor.html) if required.
 - I use [Gradle](https://gradle.org/) instead of Maven but can easily be ported
 
+https://dannykellett.com
 
 ## Installation
 
@@ -16,7 +17,7 @@ It's important to understand the following:
 
 Example run showing thread names processing different entries and completing 10000 updates in 10s
 ```bash
-2020-10-12 17:25:29:324 [INFO ] [GenerateData        :92   ] - Remedy Consumer Threads v1.0 - me@dannykellett.com
+2020-10-12 17:25:29:324 [INFO ] [GenerateData        :92   ] - Remedy Consumer Threads v1.0 - https://dannykellett.com
 2020-10-12 17:25:29:929 [INFO ] [GenerateData        :94   ] - 10000 Entries found to update
 2020-10-12 17:25:30:070 [INFO ] [PluginsmiUpdate     :25   ] - Thread-3 Updating entry 000000000021924
 2020-10-12 17:25:30:071 [INFO ] [PluginsmiUpdate     :25   ] - Thread-7 Updating entry 000000000021928
