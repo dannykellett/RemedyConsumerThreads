@@ -1,6 +1,6 @@
 # Remedy Consumer Threads
 
-Created to answer [Regarding multi threaded Java plugin programming](https://communities.bmc.com/message/889052) question on the BMC Communities forum. This is an example of using the BMC Remedy API to populate a thread safe BlockingQueue<Entry> list to be processed by a set of instantiated threads.
+Created to answer [Regarding multi threaded Java plugin programming](https://community.bmc.com/s/question/0D53n00007aEalACAS/regarding-multi-threaded-java-plugin-programming) question on the BMC Communities forum. This is an example of using the BMC Remedy API to populate a thread safe BlockingQueue<Entry> list to be processed by a set of instantiated threads.
 
 It's important to understand the following:
 - The list is created outside and before the consumer threads are created
